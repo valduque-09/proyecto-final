@@ -21,3 +21,13 @@ Miércoles 04 de noviembre
 -Se obtuvo una descripción estadística de los datos numéricos mediante .describe(), identificando medidas como la media, desviación estándar, valores extremos y cuartiles.
 -Se desarrollaron ejercicios de selección y consulta de datos utilizando .loc[] y .iloc[], diferenciando el acceso mediante etiquetas y posiciones numéricas.
 -Se establecieron condiciones para filtrar registros según las calificaciones de los estudiantes, incluyendo notas mayores o iguales a 3.0 y rangos determinados; posteriormente, se verificaron las dimensiones de los resultados con .shape.
+
+lunes 09 de noviembre 
+-Se importaron las librerías NumPy y Matplotlib.
+-Se crearon arreglos de datos para representar gráficamente funciones.
+-Se realizaron gráficos de líneas para comparar dos curvas.
+-Se configuraron títulos, nombres de los ejes, límites y leyendas.
+-Se agregó una cuadrícula para facilitar la lectura de los gráficos.
+-Se elaboró un gráfico de dispersión (scatter).
+-Se construyó un gráfico de barras para representar cantidades de equipos electrónicos.
+-Se realizó un gráfico circular (pie) para representar porcentajes de diferentes fuentes de energía.
