@@ -1,0 +1,15 @@
+Miércoles 28 de octubre
+-Se importó la librería NumPy para trabajar con arreglos y operaciones numéricas.
+-Se creó un arreglo unidimensional utilizando np.array().
+-Se identificaron las diferencias entre una lista de Python y un arreglo de NumPy.
+-Se generaron matrices de ceros con np.zeros().
+-Se crearon secuencias numéricas utilizando np.arange() y np.linspace().
+-Se generaron datos aleatorios mediante una distribución normal.
+-Se construyó una matriz con diferentes notas académicas.
+-Se practicó la selección de elementos y posiciones dentro de una matriz.
+-Se consultaron las propiedades de los arreglos: forma, dimensión, cantidad de elementos y tipo de dato.
+-Se realizaron operaciones vectorizadas de suma, resta, división, multiplicación y potencia.
+-Se aplicaron condiciones para identificar notas mayores o iguales a 3.
+-Se filtraron las notas aprobadas mediante máscaras booleanas.
+-Se contó la cantidad de notas que cumplían la condición establecida.
+
