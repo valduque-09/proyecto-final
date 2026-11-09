@@ -13,3 +13,11 @@ Miércoles 28 de octubre
 -Se filtraron las notas aprobadas mediante máscaras booleanas.
 -Se contó la cantidad de notas que cumplían la condición establecida.
 
+Miércoles 04 de noviembre
+-Se incorporaron las librerías Pandas (pd) y NumPy (np) para el manejo de información estructurada y el procesamiento de datos numéricos.
+-Se importaron los datos del archivo estudiantes.csv con la función pd.read_csv(), almacenándolos en un DataFrame.
+-Se examinó la información inicial y final mediante los métodos .head() y .tail(), identificando también las columnas disponibles, los índices y el tamaño del conjunto de datos.
+-Se seleccionaron variables específicas, como la columna "nota", y se comprobaron sus características y tipos de datos con .info() y type().
+-Se obtuvo una descripción estadística de los datos numéricos mediante .describe(), identificando medidas como la media, desviación estándar, valores extremos y cuartiles.
+-Se desarrollaron ejercicios de selección y consulta de datos utilizando .loc[] y .iloc[], diferenciando el acceso mediante etiquetas y posiciones numéricas.
+-Se establecieron condiciones para filtrar registros según las calificaciones de los estudiantes, incluyendo notas mayores o iguales a 3.0 y rangos determinados; posteriormente, se verificaron las dimensiones de los resultados con .shape.
