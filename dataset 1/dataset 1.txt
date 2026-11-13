@@ -1,0 +1,9 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("kukuroo3/body-signal-of-smoking")
+
+print("Path to dataset files:", path)
+
+
+https://www.kaggle.com/code/titassaha/biomedical-analysis-risks-rf-accuracy-82-56
