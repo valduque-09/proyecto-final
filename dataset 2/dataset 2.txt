@@ -1,0 +1,3 @@
+kaggle kernels pull daniilkrasnoproshin/logistic-regression-for-cancer-diagnosis
+
+https://www.kaggle.com/code/daniilkrasnoproshin/logistic-regression-for-cancer-diagnosis

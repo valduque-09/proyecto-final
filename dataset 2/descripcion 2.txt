@@ -1,0 +1,84 @@
+1. Nombre de la base de datos
+
+Breast Cancer Wisconsin (Original).
+
+Nombre del archivo: `breast_cancer_bd.csv`.
+
+### 2. ¿Qué es la base de datos? (Tema, contexto y propósito)
+
+Breast Cancer Wisconsin (Original) es una base de datos biomédica que contiene información sobre características celulares de muestras relacionadas con tumores de mama.
+
+Su propósito es facilitar el análisis y la clasificación de tumores en dos categorías: benignos y malignos.
+
+Los tumores benignos no presentan las características de malignidad propias del cáncer, mientras que los tumores malignos corresponden a células cancerosas que pueden invadir tejidos y representar un riesgo para la salud.
+
+La base de datos contiene nueve características celulares que permiten estudiar las diferencias entre ambos tipos de tumores.
+
+Entre sus principales aplicaciones se encuentran el análisis de información médica, la investigación biomédica y el desarrollo de modelos de aprendizaje automático para apoyar procesos de clasificación y diagnóstico.
+
+En el notebook analizado se utiliza esta base de datos para desarrollar un modelo de regresión logística y compararlo con un modelo de máquinas de soporte vectorial (SVM), con el objetivo de clasificar los tumores como benignos o malignos.
+
+ 3. ¿Cómo se obtuvieron los datos?
+
+La base de datos original fue recopilada a partir de casos clínicos relacionados con el cáncer de mama en el University of Wisconsin Hospitals, ubicado en Madison, Estados Unidos.
+
+Los datos fueron registrados y reportados por el doctor William H. Wolberg a partir de evaluaciones de muestras celulares.
+
+La colección fue publicada posteriormente en el repositorio UCI Machine Learning Repository, donde se encuentra disponible para actividades de investigación, análisis estadístico y aprendizaje automático.
+
+El notebook utiliza una versión del conjunto de datos distribuida en Kaggle, identificada mediante la ruta:
+
+`breast-cancer-wisconsin-original-data-set/breast_cancer_bd.csv`.
+
+
+### 4. Fuente / URL de descarga
+
+https://www.kaggle.com/code/daniilkrasnoproshin/logistic-regression-for-cancer-diagnosis
+
+Nombre del conjunto de datos: Breast Cancer Wisconsin (Original).
+
+Enlace de consulta:
+
+https://archive.ics.uci.edu/dataset/15/breast+cancer+wisconsin+original
+
+5. Número de filas y columnas
+
+La base de datos original presenta las siguientes dimensiones:
+
+- Número de filas o registros: 699.
+- Número de columnas originales: 11.
+- Número de columnas después del procesamiento realizado en el notebook: 10.
+
+La columna que se elimina durante el procesamiento es `Sample code number`, que corresponde al identificador de cada muestra.
+
+Las diez columnas restantes incluyen nueve características celulares y una variable de clasificación del tumor.
+
+6. Formato del archivo
+
+El notebook utiliza un archivo en formato CSV (Comma-Separated Values).
+
+Este formato permite almacenar los registros en filas y las características celulares en columnas.
+
+Nombre del archivo utilizado: `breast_cancer_bd.csv`.
+
+B. DESCRIPCIÓN DE LAS COLUMNAS
+
+La base de datos original contiene 11 columnas. De estas, una corresponde al identificador de la muestra y las diez restantes contienen información sobre las características celulares y la clasificación del tumor.
+
+Las nueve variables predictoras presentan valores enteros en una escala de 1 a 10. La variable `Class` contiene los valores 2 y 4 para representar las categorías benigno y maligno, respectivamente.
+
+| Nombre de columna | Tipo de dato | Descripción | Ejemplo de valor |
+|---|---|---|---|
+| Sample code number | Entero (int) | Código numérico que identifica cada muestra o registro de la base de datos. | 1000025 |
+| Clump Thickness | Entero (int) | Describe el grosor de los agrupamientos de células observados en la muestra. | 5 |
+| Uniformity of Cell Size | Entero (int) | Representa el grado de uniformidad del tamaño de las células. | 1 |
+| Uniformity of Cell Shape | Entero (int) | Representa el grado de uniformidad de la forma de las células. | 1 |
+| Marginal Adhesion | Entero (int) | Describe el grado de adhesión entre las células en sus márgenes. | 1 |
+| Single Epithelial Cell Size | Entero (int) | Representa el tamaño de las células epiteliales individuales. | 2 |
+| Bare Nuclei | Entero (int) | Describe una característica relacionada con la presencia de núcleos desnudos en las células. | 1 |
+| Bland Chromatin | Entero (int) | Representa las características de la cromatina celular observada. | 3 |
+| Normal Nucleoli | Entero (int) | Describe las características de los nucléolos celulares. | 1 |
+| Mitoses | Entero (int) | Representa el nivel de actividad mitótica o división celular observado. | 1 |
+| Class | Entero (int) | Variable objetivo que identifica la clasificación del tumor: 2 corresponde a benigno y 4 corresponde a maligno. | 2 |
+
+
