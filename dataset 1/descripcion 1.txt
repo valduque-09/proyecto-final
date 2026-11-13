@@ -1,0 +1,89 @@
+1. Nombre de la base de datos
+
+ Body Signal of Smoking.
+
+Nombre del archivo: `smoking.csv`.
+
+2. ¿Qué es la base de datos? (Tema, contexto y propósito)
+
+Body Signal of Smoking es una base de datos que contiene información demográfica, física y biomédica de personas, relacionada con diferentes indicadores de salud y el hábito de fumar.
+
+El conjunto de datos permite estudiar la relación entre el tabaquismo y diferentes características del organismo humano, como la presión arterial, los niveles de colesterol, los triglicéridos, la glucosa en sangre, la hemoglobina y algunos indicadores de funcionamiento hepático.
+
+También contiene información sobre características físicas, visión, audición y salud oral.
+
+Su propósito es facilitar el análisis de datos relacionados con la salud y permitir la identificación de patrones que puedan estar asociados con el hábito de fumar. Puede utilizarse en proyectos de ingeniería biomédica, análisis estadístico y aprendizaje automático.
+
+3. ¿Cómo se obtuvieron los datos?
+
+La base de datos corresponde a registros de exámenes de salud de personas de Corea del Sur. Su publicación y distribución se realiza a través de Kaggle.
+
+Contiene información procedente de evaluaciones de salud, incluyendo mediciones físicas, resultados de análisis sanguíneos y otros indicadores médicos.
+
+No corresponde a una encuesta elaborada para el notebook, sino a un conjunto de registros de salud previamente recopilados.
+
+El notebook utiliza la versión no perteneciente a una competencia de la base de datos y realiza una división de los registros en conjuntos de entrenamiento y prueba para desarrollar el modelo predictivo.
+
+ 4. Fuente / URL de descarga
+
+Plataforma: Kaggle.
+
+Nombre de la publicación: Body Signal of Smoking.
+
+Enlace de consulta y descarga:
+
+https://www.kaggle.com/code/titassaha/biomedical-analysis-risks-rf-accuracy-82-56
+
+Nombre del archivo utilizado en el análisis: `smoking.csv`.
+ 5. Número de filas y columnas
+
+La base de datos contiene las siguientes dimensiones:
+
+- Número de filas o registros: 55.692.
+- Número de columnas o variables: 27.
+
+Cada fila representa un registro correspondiente a una persona y cada columna contiene una característica demográfica, física, biomédica o relacionada con el tabaquismo.
+
+### 6. Formato del archivo
+
+El formato del archivo es CSV (Comma-Separated Values).
+
+Este formato permite almacenar información organizada en filas y columnas, facilitando su lectura y procesamiento mediante herramientas como Excel, Python y R.
+
+## B. DESCRIPCIÓN DE LAS COLUMNAS
+
+La base de datos contiene 27 columnas que representan diferentes características de las personas y sus indicadores de salud.
+
+| Nombre de columna | Tipo de dato | Descripción | Ejemplo de valor |
+|---|---|---|---|
+| ID | Entero (int) | Identificador único asignado a cada registro de la base de datos. | 0 |
+| gender | Texto (str) | Género registrado de la persona. | F |
+| age | Entero (int) | Edad de la persona expresada en años. | 40 |
+| height.cm. | Entero (int) | Estatura de la persona medida en centímetros. | 155 |
+| weight.kg. | Entero (int) | Peso corporal de la persona expresado en kilogramos. | 60 |
+| waist.cm. | Numérico (float) | Circunferencia de la cintura medida en centímetros. | 81.3 |
+| eyesight.left. | Numérico (float) | Indicador de la capacidad visual del ojo izquierdo. | 1.2 |
+| eyesight.right. | Numérico (float) | Indicador de la capacidad visual del ojo derecho. | 1.0 |
+| hearing.left. | Numérico (float) | Indicador de la capacidad auditiva del oído izquierdo. | 1.0 |
+| hearing.right. | Numérico (float) | Indicador de la capacidad auditiva del oído derecho. | 1.0 |
+| systolic | Numérico (float) | Presión arterial sistólica, correspondiente a la presión durante la contracción del corazón. | 114.0 |
+| relaxation | Numérico (float) | Presión arterial diastólica, correspondiente a la presión cuando el corazón se relaja. | 73.0 |
+| fasting.blood.sugar | Numérico (float) | Concentración de glucosa en sangre después de un periodo de ayuno. | 94.0 |
+| Cholesterol | Numérico (float) | Nivel de colesterol total presente en la sangre. | 215.0 |
+| triglyceride | Numérico (float) | Concentración de triglicéridos en la sangre. | 82.0 |
+| HDL | Numérico (float) | Nivel de colesterol HDL, conocido como colesterol de alta densidad. | 73.0 |
+| LDL | Numérico (float) | Nivel de colesterol LDL, conocido como colesterol de baja densidad. | 126.0 |
+| hemoglobin | Numérico (float) | Concentración de hemoglobina en la sangre, proteína encargada del transporte de oxígeno. | 12.9 |
+| Urine.protein | Numérico (float) | Resultado codificado de la presencia de proteínas en la orina. | 1.0 |
+| serum.creatinine | Numérico (float) | Concentración de creatinina sérica, utilizada como indicador de la función renal. | 0.7 |
+| AST | Numérico (float) | Nivel de aspartato aminotransferasa, enzima utilizada como indicador de función o lesión hepática. | 18.0 |
+| ALT | Numérico (float) | Nivel de alanina aminotransferasa, enzima relacionada con la función hepática. | 19.0 |
+| Gtp | Numérico (float) | Nivel de gamma-glutamil transferasa, enzima utilizada para evaluar aspectos de la función hepática. | 27.0 |
+| oral | Texto (str) | Indicador categórico relacionado con el examen de salud oral. | Y |
+| dental.caries | Entero (int) | Indica la presencia o ausencia de caries dentales. | 0 |
+| tartar | Texto (str) | Indica la presencia o ausencia de sarro dental. | Y |
+| smoking | Entero (int) | Variable que identifica si la persona fuma o no. Se utiliza como variable objetivo para los modelos de clasificación. | 0 |
+
+
+
+
