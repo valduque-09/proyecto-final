@@ -1,0 +1,16 @@
+
+# Base de datos: NFL Concussions 2012-2014
+
+# Archivo CSV utilizado:
+# Concussion Injuries 2012-2014.csv
+
+import pandas as pd
+
+# Cargar la base de datos
+df = pd.read_csv("Concussion Injuries 2012-2014.csv")
+
+# Mostrar las primeras filas
+print(df.head())
+
+# Fuente:
+# Archivo utilizado en el notebook nfl-concussions.ipynb
