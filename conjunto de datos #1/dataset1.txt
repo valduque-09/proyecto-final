@@ -1,0 +1,11 @@
+
+import kagglehub
+
+# Descargar la última versión de la base de datos
+path = kagglehub.dataset_download("andreshinojosadata/heart-disease-uci-biomedical-data-analysis")
+
+print("Ruta de los archivos de la base de datos:", path)
+
+
+# Fuente de la base de datos:
+https://www.kaggle.com/datasets/andreshinojosadata/heart-disease-uci-biomedical-data-analysis
