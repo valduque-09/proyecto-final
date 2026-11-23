@@ -31,3 +31,6 @@ lunes 09 de noviembre
 -Se elaboró un gráfico de dispersión (scatter).
 -Se construyó un gráfico de barras para representar cantidades de equipos electrónicos.
 -Se realizó un gráfico circular (pie) para representar porcentajes de diferentes fuentes de energía.
+
+Miércoles 11 de noviembre
+-Se inicio el proceso para la ejecución del proyecto final con el dataset seleccionado 
